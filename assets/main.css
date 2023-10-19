@@ -1,0 +1,52 @@
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+@import url('../node_modules/@fontsource/quicksand/index.css');
+
+:root{
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+}
+
+*{
+  font-family: Quicksand;
+}
+.link-menu{
+  text-decoration: none;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+.link-menu:hover{
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px; /* Lebar scrollbar yang lebih kecil */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Warna latar belakang track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#0d6efd;
+    ; /* Warna handle */
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Warna handle saat dihover */
+  }
+
+  
+
+
+
